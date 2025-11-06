@@ -1,41 +1,48 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Endre Borbáth
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Endre
+last_name: Borbáth
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Principal Investigator & Junior Professor for Empirical-Analytical Participation Research
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: Ruprecht-Karls-Universität Heidelberg
+    url: 'https://endre-borbath.eu'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio:
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Comparative Politics
+  - Political Sociology
+  - Political Participation
+  - Climate Change
+  - Party Competition
+  - Social Movements
+  - Research Methods
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: PhD in Political and Social Sciences
+      institution: European University Institute
+      year: 2018
+    - course: MA in Political Science (Electoral Politics)
+      institution: Central European University
+      year: 2014
+    - course: BA in Political Science 
+      institution: Babeș-Bolyai University
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BA in Philosophy
+      institution: Babeș-Bolyai University
+      year: 2009
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,16 +51,19 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
+    link: 'mailto:endre.borbath@ipw.uni-heidelberg.de'
+  - icon: orcid
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://orcid.org/0000-0002-2980-8586
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
+    link: https://scholar.google.com/citations?user=acuZOBMAAAAJ
+  - icon: linkedin
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://www.linkedin.com/in/endre-borbáth-83b924226
+#  - icon: bluesky
+#    icon_pack: bs
+#    link: https://twitter.com/GeorgeCushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,6 +82,6 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Endre Borbáth is Junior Professor of Empirical-Analytical Participation Research at Heidelberg University and a guest researcher at the WZB Berlin Social Science Center. He holds a PhD from the European University Institute in Florence and previously studied at Central European University. His research bridges comparative politics and political sociology, focusing on party competition, protest mobilization, and political participation in Europe. He uses quantitative methods to study supply- and demand-side dynamics across Western and Central-Eastern Europe.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+For more information, please visit his personal website: [https://endre-borbath.eu](https://endre-borbath.eu)

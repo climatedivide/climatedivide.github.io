@@ -1,0 +1,16 @@
+github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.8-0.20241012174104-661cadc17327 h1:aKhll1k3EctTWSvLZYrkhz4ehSqo1+OX5Ho7LvfZR/0=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.8-0.20241012174104-661cadc17327/go.mod h1:+Itucnia7M8NWxaEys257x/34K4+POiBlR1yYCTrzBM=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1/go.mod h1:So8+V2U+TNxlXmcpZfdDX0muLh3PdJ7z92h30sv3bZg=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.2-0.20231108143325-448ed0e3bd2b h1:pOYZJXK2hahVeW/FcVuBoFdvtR3DpsDDZVcbGnMNEdQ=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.2-0.20231108143325-448ed0e3bd2b/go.mod h1:Njlsj3S1Z833TdX1nacJZzsiwGGhOq4Nilzo2BH/wQ8=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240509231741-c3d23d929bc6 h1:QIQqCc9DnS/PjhHCnyzxe5yhUMUYtJDMpRoaBtBk3VY=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240509231741-c3d23d929bc6/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3/go.mod h1:NsESu6cEms1DgH84icCyylElg2Zu8A0f7Fma5JR0LZE=
+github.com/hugomods/font-awesome v6.7.1+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
+github.com/hugomods/icons v0.6.6 h1:gGlafcBDRP7sSID+tgLcWdog+s/QBj8DIfU+h9tZj1U=
+github.com/hugomods/icons v0.6.6/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
+github.com/hugomods/icons/vendors/bootstrap v0.5.11 h1:8gZnk0wR1JSC+07L7T1okJiGAva7V1rGnOIQYSsr4/8=
+github.com/hugomods/icons/vendors/bootstrap v0.5.11/go.mod h1:PAN+bzB4MW4dkA2gZbmKRJQ6lskHzoosqZzlCTgPv0k=
+github.com/hugomods/icons/vendors/font-awesome v0.6.12 h1:I8ckJFuxr8mD8bJ4NX9NrmnHd3f6XvITuD2ME8a9wXc=
+github.com/hugomods/icons/vendors/font-awesome v0.6.12/go.mod h1:6YBo/5GaNpAocKwnKNWcd9xkliiRJXmwz2mstY5lr9I=
+github.com/twbs/icons v1.13.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

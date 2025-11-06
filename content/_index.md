@@ -8,15 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        The New Climate Divide
         Research Group
       image:
-        filename: welcome.jpg
+        filename: logo_white_bg.png
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        The research group focuses on analyzing polarization around climate change as a political mobilization issue between an emerging right-wing front and an increasingly mainstream yet fragmented green camp.  
   - block: collection
     content:
       title: Latest News
@@ -45,7 +43,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: abstract_climate_divide_header.png
           filters:
             brightness: 1
           parallax: false
