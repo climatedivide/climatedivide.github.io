@@ -1,0 +1,8 @@
+{{/* Override Hugo Blox icon helper to use the site's logo */}}
+{{ $icon := resources.GetMatch "media/logo_climatedivide.png" | default (resources.GetMatch "media/icon.png") }}
+{{ if not $icon }}
+  {{ errorf "Favicon image not found. Add assets/media/logo_climatedivide.png or assets/media/icon.png." }}
+{{ end }}
+
+{{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .)) }}
+{{ return $icon_resized }}
