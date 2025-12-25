@@ -10,7 +10,7 @@ last_name: Borbáth
 superuser: true
 
 # Role/position
-role: Principal Investigator & Junior Professor for Empirical-Analytical Participation Research
+role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
@@ -27,22 +27,23 @@ interests:
   - Climate Change
   - Party Competition
   - Social Movements
+  - Cleavages
   - Research Methods
 
 education:
   courses:
     - course: PhD in Political and Social Sciences
       institution: European University Institute
-      year: 2018
-    - course: MA in Political Science (Electoral Politics)
+#      year: 2018
+    - course: MA in Political Science
       institution: Central European University
-      year: 2014
+#      year: 2014
     - course: BA in Political Science 
       institution: Babeș-Bolyai University
-      year: 2009
+#      year: 2009
     - course: BA in Philosophy
       institution: Babeș-Bolyai University
-      year: 2009
+#      year: 2009
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -61,9 +62,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/endre-borbáth-83b924226
-#  - icon: bluesky
-#    icon_pack: bs
-#    link: https://twitter.com/GeorgeCushen
+  - icon: square-bluesky
+    icon_pack: fab
+    link: https://bsky.app/profile/eborbath.bsky.social
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -79,9 +80,11 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Principal Investigator
 ---
 
-Endre Borbáth is Junior Professor of Empirical-Analytical Participation Research at Heidelberg University and a guest researcher at the WZB Berlin Social Science Center. He holds a PhD from the European University Institute in Florence and previously studied at Central European University. His research bridges comparative politics and political sociology, focusing on party competition, protest mobilization, and political participation in Europe. He uses quantitative methods to study supply- and demand-side dynamics across Western and Central-Eastern Europe.
+Endre Borbáth is Junior Professor for Empirical-Analytical Participation Research at the Institute of Political Science at Ruprecht-Karls-Universität Heidelberg. He leads the Emmy Noether Research Group “The New Climate Divide” and is a guest researcher at the Center for Civil Society Research at the WZB Berlin Social Science Center.
+
+His research examines mass mobilization amid changing European cleavage structures, shaped by the growing salience of climate change, immigration, and European integration. Bridging comparative politics and political sociology, he analyzes both the supply side (party competition and movement mobilization) and the demand side (individual-level participation, group identities, and political behavior). Methodologically, he primarily employs quantitative approaches, working with data from media coverage of electoral and protest politics as well as individual-level surveys and survey experiments. Geographically, his work focuses on Western, Central, and Eastern Europe.
 
 For more information, please visit his personal website: [https://endre-borbath.eu](https://endre-borbath.eu)

@@ -1,5 +1,9 @@
 ---
 title: Recent & Upcoming Events
+draft: true
+
+cascade:
+  draft: true
 
 # Listing view
 view: compact

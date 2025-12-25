@@ -7,3 +7,86 @@
 .cta-group {
   justify-content: center;
 }
+
+// Use dark heading color for focus-area card titles
+.focus-areas .project-item h4 a {
+  color: #313131;
+}
+.focus-areas .project-item h4 a:hover {
+  color: #000;
+}
+
+// Hide thumbnails in the homepage news list
+.news-list .media.stream-item .ml-3 {
+  display: none;
+}
+.news-list .media.stream-item .media-body {
+  margin-right: 0;
+}
+
+// Justify project description text on project pages
+.article-project .article-style {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+// Logos on About page, floated to let text wrap
+.about-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  float: left;
+  margin: 0 18px 18px 0;
+}
+.about-logos img {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+// Justify About page text
+.page-about .article-style,
+.about-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about-heading-space {
+  height: 20px;
+}
+
+// Social icons override for custom SVGs
+.network-icon .social-icon {
+  height: 1.3em;
+  width: auto;
+  vertical-align: middle;
+}
+
+// Bluesky fallback: match size/color of FA icons by inheriting current color
+.network-icon .fa-square-bluesky::before,
+.network-icon .fa-bluesky::before,
+.big-icon.fa-square-bluesky::before,
+.big-icon.fa-bluesky::before {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  background: currentColor url("/media/icons/bluesky.svg") no-repeat center center / contain;
+  vertical-align: middle;
+}
+
+// Avatar placeholder
+.avatar-placeholder {
+  width: 100% !important;
+  max-width: 150px !important;
+  aspect-ratio: 1 / 1;
+  display: block !important;
+  background: #e5e7eb;
+  border-radius: 999px;
+}
+@media (max-width: 526px) {
+  .avatar-placeholder {
+    max-width: 100px !important;
+  }
+}
