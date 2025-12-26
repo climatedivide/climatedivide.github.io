@@ -15,6 +15,18 @@
 .focus-areas .project-item h4 a:hover {
   color: #000;
 }
+// Equal-height cards for work packages (match English layout without shrinking)
+.focus-areas .project-item {
+  height: auto;
+}
+.focus-areas .project-item .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.focus-areas .project-item .card-body {
+  flex: 1 1 auto;
+}
 
 // Hide thumbnails in the homepage news list
 .news-list .media.stream-item .ml-3 {

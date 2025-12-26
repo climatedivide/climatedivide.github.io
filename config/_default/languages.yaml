@@ -8,15 +8,30 @@ en:
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# German
+de:
+  languageCode: de
+  contentDir: content/de
+  title: Die neue klimapolitische Spaltung
+  params:
+    description: 'Informationen zum Forschungsprojekt Die neue klimapolitische Spaltung.'
+  menu:
+    main:
+      - name: Über das Projekt
+        url: about
+        weight: 10
+      - name: Arbeitspakete
+        url: work-packages
+        weight: 20
+      - name: Team
+        url: people
+        weight: 30
+      - name: Publikationen
+        url: publication
+        weight: 40
+      - name: Neuigkeiten
+        url: news
+        weight: 50
+      - name: Kontakt
+        url: contact
+        weight: 60

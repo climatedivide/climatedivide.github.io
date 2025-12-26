@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Dino Noah Wildi
+slug: dino-noah-wildi
+translationKey: dino-noah-wildi
 
 # Full Name (for SEO)
 first_name: Dino Noah
@@ -36,9 +38,11 @@ interests:
 
 education:
   courses:
+    - course: Postdoctoral researcher, 
+      institution: Ruprecht-Karls-Universität Heidelberg
     - course: Doctoral researcher, 
       institution: University College Dublin
-#      year: 2025
+      year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
