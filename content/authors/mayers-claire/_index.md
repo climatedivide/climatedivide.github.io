@@ -1,7 +1,7 @@
 ---
-title: Claire Mayers
+title: Claire Meyers
 first_name: Claire
-last_name: Mayers
+last_name: Meyers
 role: Student Assistant
 organizations: []
 social: []
