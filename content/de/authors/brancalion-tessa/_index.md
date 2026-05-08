@@ -8,9 +8,7 @@ social: []
 superuser: false
 highlight_name: false
 no_link: true
-user_groups:
-  - Studentische Hilfskräfte
-  - Student Assistants
+user_groups: []
 ---
 
 Student assistant supporting the project Die neue klimapolitische Spaltung.

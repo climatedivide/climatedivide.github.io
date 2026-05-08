@@ -8,8 +8,7 @@ social: []
 superuser: false
 highlight_name: false
 no_link: true
-user_groups:
-  - Student Assistants
+user_groups: []
 ---
 
 Student assistant supporting the New Climate Divide project.
