@@ -1,9 +1,9 @@
 ---
 title: ClimateDivide bei der CES in Dublin und der EPSS in Belfast
-date: 2026-05-04T09:00:00+02:00
-summary: Das Projekt präsentiert neue Arbeiten zu automatisierter Claims-Analyse und zur klimapolitischen Spaltung bei der CES in Dublin und der EPSS in Belfast.
+date: 2026-06-09T09:00:00+02:00
+summary: Das Projekt ist nächste Woche bei der CES in Dublin und der EPSS in Belfast vertreten; bei der CES werden zwei gemeinsam verfasste Beiträge vorgestellt.
 ---
 
-Das Projekt **Die neue klimapolitische Spaltung** ist im Juni auf zwei wichtigen politikwissenschaftlichen Konferenzen vertreten: der [**32nd International Conference of Europeanists**](https://councilforeuropeanstudies.org/conferences/upcoming-conferences/) in Dublin und der ersten Konferenz der [**European Political Science Society**](https://epssnet.org/belfast-2026/) in Belfast.
+Das Projekt **Die neue klimapolitische Spaltung** ist nächste Woche auf zwei politikwissenschaftlichen Konferenzen vertreten: der [**32nd International Conference of Europeanists**](https://councilforeuropeanstudies.org/conferences/upcoming-conferences/) in Dublin (**16. bis 18. Juni 2026**) und der [**European Political Science Society Conference**](https://epssnet.org/belfast-2026/) in Belfast (**18. bis 20. Juni 2026**).
 <br>
-Dino Noah Wildi präsentiert **„Automated Political Claims Analysis With LLMs“**, und Endre Borbáth präsentiert **„From Valence to Cleavage: Conceptualizing the Climate Divide as Political Mobilisation Issue“**.
+Bei der CES werden zwei Beiträge vorgestellt, beide gemeinsam verfasst von Dino Noah Wildi und Endre Borbáth: **„From Valence to Cleavage: Conceptualizing the Climate Divide as Political Mobilisation Issue“** und **„Automated Political Claims Analysis With LLMs“**.
