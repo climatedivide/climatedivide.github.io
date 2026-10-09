@@ -1,4 +1,9 @@
 ---
+# Hidden from the site: no profile page, not in search or the sitemap.
+# To show this person again, delete these five lines and add a user_group.
+build:
+  render: never
+  list: never
 title: Claire Meyers
 first_name: Claire
 last_name: Meyers

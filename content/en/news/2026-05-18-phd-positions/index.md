@@ -1,8 +1,10 @@
 ---
 title: Two PhD positions in the New Climate Divide project
 date: 2026-05-18T09:00:00+02:00
-summary: Applications are open for two PhD positions in the New Climate Divide project.
+summary: Two PhD positions in the New Climate Divide project (applications closed on 21 June 2026).
 ---
+
+**Update:** The application period ended on 21 June 2026.
 
 We are hiring two doctoral researchers in the **New Climate Divide** project:
 

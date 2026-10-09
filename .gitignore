@@ -1,7 +1,9 @@
-# IDEs
+# IDEs and OS
 .idea/
+.DS_Store
 
 # Hugo
 /resources/
 public/
+.hugo_build.lock
 assets/jsconfig.json

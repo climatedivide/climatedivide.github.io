@@ -1,8 +1,10 @@
 ---
 title: Zwei Promotionsstellen im Projekt Die neue klimapolitische Spaltung
 date: 2026-05-18T09:00:00+02:00
-summary: Bewerbungen für zwei Promotionsstellen im Projekt Die neue klimapolitische Spaltung sind möglich.
+summary: Zwei Promotionsstellen im Projekt Die neue klimapolitische Spaltung (Bewerbungsschluss war der 21. Juni 2026).
 ---
+
+**Hinweis:** Die Bewerbungsfrist ist am 21. Juni 2026 abgelaufen.
 
 Wir besetzen zwei Promotionsstellen im Projekt **Die neue klimapolitische Spaltung**:
 
