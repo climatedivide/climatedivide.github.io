@@ -47,7 +47,7 @@
             {{ end }}
           </div>
 
-          <ul class="network-icon" aria-hidden="true">
+          <ul class="network-icon">
             {{ range $person.social }}
             {{ $pack := or .icon_pack "fas" }}
             {{ $pack_prefix := $pack }}
@@ -62,9 +62,10 @@
             {{ else if in (slice "http" "https") $scheme }}
               {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
             {{ end }}
+            {{ $label := partial "functions/social_label" (dict "item" . "name" $authorPage.Title "lang" $authorPage.Lang) }}
             <li>
-              <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}">
-                <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+              <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ $label }}" title="{{ $label }}">
+                <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon" aria-hidden="true"></i>
               </a>
             </li>
             {{ end }}

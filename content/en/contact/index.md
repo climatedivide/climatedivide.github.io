@@ -1,7 +1,6 @@
 ---
 title: Contact
 summary: "How to get in touch with the research project The New Climate Divide."
-date: 2022-10-24
 
 type: landing
 
@@ -12,9 +11,9 @@ sections:
       text: |-
         If you would like to get in touch, please approach one of the project members listed on [this page](/people/).
       address:
-        street: Institute of Political Science, Bergheimer Str. 58  
+        street: Institute of Political Science, Bergheimer Str. 58
         city: Heidelberg
-        region: Baden-Württemberg, Germany
+        region: Baden-Württemberg
         postcode: '69115'
         country: Germany
         country_code: DE

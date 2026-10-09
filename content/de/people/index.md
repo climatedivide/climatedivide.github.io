@@ -1,7 +1,6 @@
 ---
 title: Team
 summary: "Das Team des Forschungsprojekts Die neue klimapolitische Spaltung an der Universität Heidelberg."
-date: 2022-10-24
 
 type: landing
 

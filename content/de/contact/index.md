@@ -1,7 +1,6 @@
 ---
 title: Kontakt
 summary: "Kontakt zum Forschungsprojekt Die neue klimapolitische Spaltung."
-date: 2022-10-24
 
 type: landing
 
@@ -12,11 +11,11 @@ sections:
       text: |-
         Wenn Sie mit uns in Kontakt treten möchten, wenden Sie sich gern an eines der Projektmitglieder auf [dieser Seite](/de/people/).
       address:
-        street: Institute of Political Science, Bergheimer Str. 58  
+        street: Institut für Politische Wissenschaft, Bergheimer Str. 58
         city: Heidelberg
-        region: Baden-Württemberg, Germany
+        region: Baden-Württemberg
         postcode: '69115'
-        country: Germany
+        country: Deutschland
         country_code: DE
       coordinates:
         latitude: '49.4086404'

@@ -1,4 +1,4 @@
-<ul class="network-icon" aria-hidden="true">
+<ul class="network-icon">
   {{ range .Params.social }}
     {{ $pack := or .icon_pack "fas" }}
     {{ $pack_prefix := $pack }}
@@ -13,17 +13,18 @@
     {{ else if in (slice "http" "https") $scheme }}
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}
+    {{ $label := partial "functions/social_label" (dict "item" . "name" $.Title "lang" $.Lang) }}
     <li>
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ $label }}" title="{{ $label }}">
         {{ if eq $pack "custom" }}
           {{ $svg_icon := resources.Get (printf "media/icons/%s.svg" .icon) }}
           {{ if $svg_icon }}
-            <img src="{{ $svg_icon.RelPermalink }}" class="social-icon" alt="{{ .icon }}">
+            <img src="{{ $svg_icon.RelPermalink }}" class="social-icon" alt="" aria-hidden="true">
           {{ else }}
-            <img src="{{ (printf "/media/icons/%s.svg" .icon) | relLangURL }}" class="social-icon" alt="{{ .icon }}">
+            <img src="{{ (printf "/media/icons/%s.svg" .icon) | relLangURL }}" class="social-icon" alt="" aria-hidden="true">
           {{ end }}
         {{ else }}
-          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}" aria-hidden="true"></i>
         {{ end }}
       </a>
     </li>

@@ -1,0 +1,25 @@
+{{/* Accessible name for a social/contact link, e.g. "ORCID – Endre Borbáth".
+     Input: dict "item" (social entry) "name" (person) "lang". Output: string. */}}
+{{ $item := .item }}
+{{ $de := eq .lang "de" }}
+{{ $labels := dict
+  "envelope" (cond $de "E-Mail" "Email")
+  "orcid" "ORCID"
+  "google-scholar" "Google Scholar"
+  "linkedin" "LinkedIn"
+  "square-bluesky" "Bluesky"
+  "bluesky" "Bluesky"
+  "bluesky-brands-solid-full" "Bluesky"
+  "square-bluesky-brands-solid-full" "Bluesky"
+  "github" "GitHub"
+  "x-twitter" "X"
+  "twitter" "X"
+  "researchgate" "ResearchGate"
+  "cv" (cond $de "Lebenslauf" "CV")
+  "globe" "Website"
+  "house" "Website"
+  "home" "Website"
+}}
+{{ $label := $item.label | default (index $labels $item.icon) | default (humanize $item.icon) }}
+{{ with .name }}{{ $label = printf "%s – %s" $label . }}{{ end }}
+{{ return $label }}
