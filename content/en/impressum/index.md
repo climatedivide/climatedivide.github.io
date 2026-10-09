@@ -1,5 +1,6 @@
 ---
 title: Legal notice
+summary: "Legal notice for the website of the research project The New Climate Divide."
 translationKey: impressum
 share: false
 profile: false

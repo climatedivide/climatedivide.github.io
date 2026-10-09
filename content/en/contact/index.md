@@ -1,5 +1,6 @@
 ---
 title: Contact
+summary: "How to get in touch with the research project The New Climate Divide."
 date: 2022-10-24
 
 type: landing

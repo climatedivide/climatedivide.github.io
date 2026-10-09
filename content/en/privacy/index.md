@@ -1,5 +1,6 @@
 ---
 title: Privacy policy
+summary: "How personal data is processed on the website of the research project The New Climate Divide."
 translationKey: privacy
 share: false
 profile: false
@@ -24,9 +25,9 @@ This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. K
 
 All fonts, scripts and style sheets used for the layout are served from this website itself. No data is sent to third-party content delivery networks or font services when you load the pages. The site search runs entirely in your browser.
 
-## 3. Consent cookie and display settings
+## 3. Consent cookie
 
-When you make a choice in the privacy banner, it is stored in a cookie called `cc_cookie` in your browser for six months, so that the banner does not reappear on every page. If you use the light/dark switch, your choice is stored in your browser's local storage (`wcTheme`). Both are strictly necessary to provide the function you requested (§ 25(2) no. 2 TDDDG; Art. 6(1)(f) GDPR) and are never sent to us.
+When you make a choice in the privacy banner, it is stored in a cookie called `cc_cookie` in your browser for six months, so that the banner does not reappear on every page. This is strictly necessary to remember your choice (§ 25(2) no. 2 TDDDG; Art. 6(1)(c) and (f) GDPR); the cookie is not used for any other purpose.
 
 You can change or withdraw your consent at any time via "Cookie settings" in the footer of every page.
 

@@ -1,5 +1,6 @@
 ---
 title: People
+summary: "The team of the research project The New Climate Divide at Heidelberg University."
 date: 2022-10-24
 
 type: landing

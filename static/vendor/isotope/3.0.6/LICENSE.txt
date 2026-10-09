@@ -1,0 +1,4 @@
+Isotope PACKAGED v3.0.6 — Copyright 2010-2018 Metafizzy
+Licensed GPLv3 for open source use (https://www.gnu.org/licenses/gpl-3.0.html)
+or Isotope Commercial License for commercial use.
+https://isotope.metafizzy.co/license.html

@@ -1,5 +1,6 @@
 ---
 title: Datenschutzerklärung
+summary: "Wie personenbezogene Daten auf der Website des Forschungsprojekts Die neue klimapolitische Spaltung verarbeitet werden."
 translationKey: privacy
 share: false
 profile: false
@@ -20,19 +21,19 @@ Jun.-Prof. Dr. Endre Borbáth, Institut für Politische Wissenschaft, Fakultät 
 
 ## 2. Hosting (GitHub Pages)
 
-Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub technische Daten wie Ihre IP-Adresse, den Zeitpunkt des Zugriffs und die aufgerufene Seite, um die Website auszuliefern und ihre Sicherheit zu gewährleisten (Server-Logfiles). Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und funktionsfähigen Website (Art. 6 Abs. 1 lit. f DSGVO). Die Daten können in den USA verarbeitet werden; die Muttergesellschaft von GitHub, Microsoft, ist unter dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen: [GitHub-Datenschutzerklärung](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
+Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Website verarbeitet GitHub technische Daten wie Ihre IP-Adresse, den Zeitpunkt des Zugriffs und die aufgerufene Seite, um die Website auszuliefern und ihre Sicherheit zu gewährleisten (Server-Logfiles). Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und funktionsfähigen Website (Art. 6 Abs. 1 lit. f DSGVO). Die Daten können in den USA verarbeitet werden; die Muttergesellschaft von GitHub, Microsoft, ist unter dem EU-US-Datenschutzrahmen (EU-U.S. Data Privacy Framework) zertifiziert. Weitere Informationen: [GitHub-Datenschutzerklärung](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
 
 Alle für die Darstellung verwendeten Schriften, Skripte und Stylesheets werden von dieser Website selbst ausgeliefert. Beim Laden der Seiten werden keine Daten an externe Content-Delivery-Netzwerke oder Schriftdienste übermittelt. Die Suche auf der Website läuft vollständig in Ihrem Browser.
 
-## 3. Einwilligungs-Cookie und Anzeigeeinstellungen
+## 3. Einwilligungs-Cookie
 
-Wenn Sie im Datenschutz-Banner eine Auswahl treffen, wird diese für sechs Monate in einem Cookie namens `cc_cookie` in Ihrem Browser gespeichert, damit das Banner nicht auf jeder Seite erneut erscheint. Wenn Sie den Hell/Dunkel-Schalter verwenden, wird Ihre Wahl im lokalen Speicher Ihres Browsers abgelegt (`wcTheme`). Beides ist unbedingt erforderlich, um die von Ihnen gewünschte Funktion bereitzustellen (§ 25 Abs. 2 Nr. 2 TDDDG; Art. 6 Abs. 1 lit. f DSGVO), und wird nicht an uns übermittelt.
+Wenn Sie im Datenschutz-Banner eine Auswahl treffen, wird diese für sechs Monate in einem Cookie namens `cc_cookie` in Ihrem Browser gespeichert, damit das Banner nicht auf jeder Seite erneut erscheint. Dies ist unbedingt erforderlich, um Ihre Auswahl zu speichern (§ 25 Abs. 2 Nr. 2 TDDDG; Art. 6 Abs. 1 lit. c und f DSGVO); das Cookie wird zu keinem anderen Zweck verwendet.
 
 Sie können Ihre Einwilligung jederzeit über „Cookie-Einstellungen“ in der Fußzeile jeder Seite ändern oder widerrufen.
 
 ## 4. Google Analytics (nur mit Ihrer Einwilligung)
 
-Wenn Sie „Statistik“ zustimmen, nutzt diese Website Google Analytics 4, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics verwendet Cookies (`_ga`, `_ga_*`, Speicherdauer bis zu zwei Jahre), um Ihren Browser wiederzuerkennen und zusammengefasste Statistiken über die Nutzung der Website zu erstellen (zum Beispiel aufgerufene Seiten, Verweildauer, Gerätetyp und ungefährer Standort). Nach Angaben von Google protokolliert oder speichert Google Analytics 4 keine IP-Adressen. Die Daten können an die Google LLC in den USA übermittelt werden; die Google LLC ist unter dem EU-US Data Privacy Framework zertifiziert.
+Wenn Sie in die Kategorie „Statistik“ einwilligen, nutzt diese Website Google Analytics 4, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics verwendet Cookies (`_ga`, `_ga_*`, Speicherdauer bis zu zwei Jahren), um Ihren Browser wiederzuerkennen und zusammengefasste Statistiken über die Nutzung der Website zu erstellen (zum Beispiel aufgerufene Seiten, Verweildauer, Gerätetyp und ungefährer Standort). Nach Angaben von Google protokolliert oder speichert Google Analytics 4 keine IP-Adressen. Die Daten können an die Google LLC in den USA übermittelt werden; die Google LLC ist unter dem EU-US-Datenschutzrahmen (EU-U.S. Data Privacy Framework) zertifiziert.
 
 Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO; § 25 Abs. 1 TDDDG). Google Analytics wird ohne Ihre Einwilligung überhaupt nicht geladen. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft über „Cookie-Einstellungen“ in der Fußzeile widerrufen. Weitere Informationen: [Datenschutzerklärung von Google](https://policies.google.com/privacy?hl=de) und [Datennutzung durch Google Analytics](https://support.google.com/analytics/answer/6004245?hl=de).
 

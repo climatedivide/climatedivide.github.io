@@ -1,5 +1,6 @@
 ---
 title: Impressum
+summary: "Impressum der Website des Forschungsprojekts Die neue klimapolitische Spaltung."
 translationKey: impressum
 share: false
 profile: false

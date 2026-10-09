@@ -1,5 +1,6 @@
 ---
 title: Kontakt
+summary: "Kontakt zum Forschungsprojekt Die neue klimapolitische Spaltung."
 date: 2022-10-24
 
 type: landing
