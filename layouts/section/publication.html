@@ -13,7 +13,7 @@
       <div class="article-style">{{ . }}</div>
       {{ end }}
 
-      {{/* Array of distinct years, limited to 2023 onward. */}}
+      {{/* Only publications from 2023 onward are listed; the year filter is built from whatever years remain. */}}
       {{ $pubs := where .Pages.ByDate.Reverse "Date.Year" ">=" 2023 }}
       {{ range $pubs }}
         {{ $year := print (.Date.Format "2006") }}
@@ -65,19 +65,6 @@
 
         {{ end }}
       </div>
-
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const select = document.querySelector('select[data-filter-group="year"]');
-          if (!select) return;
-          const allowed = new Set(['*', '.year-2025', '.year-2024', '.year-2023']);
-          Array.from(select.options).forEach((opt) => {
-            if (!allowed.has(opt.value)) {
-              opt.remove();
-            }
-          });
-        });
-      </script>
 
     </div>
   </div>

@@ -13,7 +13,9 @@ de:
   contentDir: content/de
   title: Die neue klimapolitische Spaltung
   params:
-    description: 'Informationen zum Forschungsprojekt Die neue klimapolitische Spaltung.'
+    marketing:
+      seo:
+        description: 'Die neue klimapolitische Spaltung (ClimateDivide) ist ein DFG-Emmy-Noether-Forschungsprojekt an der Universität Heidelberg, das untersucht, wie der Klimawandel in Europa zu einer polarisierenden politischen Konfliktlinie wird.'
   menu:
     main:
       - name: Über das Projekt
