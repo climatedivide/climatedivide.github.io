@@ -1,0 +1,122 @@
+{{/* Consent banner. Google Analytics (see layouts/partials/analytics/google_analytics.html)
+     is only loaded once the visitor accepts "Statistics". Texts follow the page language. */}}
+{{ $privacy := "" }}{{ with site.GetPage "/privacy" }}{{ $privacy = .RelPermalink }}{{ end }}
+{{ $impressum := "" }}{{ with site.GetPage "/impressum" }}{{ $impressum = .RelPermalink }}{{ end }}
+{{ $de := eq .Lang "de" }}
+<script defer src="{{ "vendor/cookieconsent/3.1.0/cookieconsent.umd.js" | relURL }}" integrity="sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG+fxAp4cIrbIFTvRXU=" crossorigin="anonymous"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    if (!window.CookieConsent) return;
+
+    // Follow the site's day/night theme (the theme toggles the "dark" class on <body>).
+    var syncDark = function () {
+      document.documentElement.classList.toggle('cc--darkmode', document.body.classList.contains('dark'));
+    };
+    syncDark();
+    new MutationObserver(syncDark).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+    CookieConsent.run({
+      revision: 1,
+      cookie: { name: 'cc_cookie', expiresAfterDays: 182 },
+      onChange: function (param) {
+        var changed = param.changedCategories || [];
+        if (changed.indexOf('analytics') !== -1 && !CookieConsent.acceptedCategory('analytics')) {
+          // Stop a running gtag from re-writing its cookies, then remove them.
+          if (typeof window.gtag === 'function') window.gtag('consent', 'update', { analytics_storage: 'denied' });
+          var host = window.location.hostname;
+          CookieConsent.eraseCookies([/^_ga/, '_gid'], '/', host);
+          CookieConsent.eraseCookies([/^_ga/, '_gid'], '/', '.' + host);
+        }
+        if (changed.length) window.location.reload();
+      },
+      guiOptions: {
+        consentModal: { layout: 'box', position: 'bottom left', equalWeightButtons: true },
+        preferencesModal: { layout: 'box', equalWeightButtons: true },
+      },
+      categories: {
+        necessary: { enabled: true, readOnly: true },
+        analytics: {
+          autoClear: { cookies: [{ name: /^_ga/ }, { name: '_gid' }] },
+        },
+      },
+      language: {
+        default: '{{ cond $de "de" "en" }}',
+        translations: {
+          {{- if $de }}
+          de: {
+            consentModal: {
+              title: 'Datenschutzeinstellungen',
+              description:
+                'Wir möchten Google Analytics nutzen, um zu sehen, wie diese Website verwendet wird. Es wird nur mit Ihrer Einwilligung geladen. Sie können Ihre Entscheidung jederzeit über „Cookie-Einstellungen“ in der Fußzeile ändern.',
+              acceptAllBtn: 'Alle akzeptieren',
+              acceptNecessaryBtn: 'Nur notwendige',
+              showPreferencesBtn: 'Einstellungen',
+              footer: '<a href="{{ $privacy }}">Datenschutzerklärung</a> <a href="{{ $impressum }}">Impressum</a>',
+            },
+            preferencesModal: {
+              title: 'Cookie-Einstellungen',
+              acceptAllBtn: 'Alle akzeptieren',
+              acceptNecessaryBtn: 'Nur notwendige',
+              savePreferencesBtn: 'Auswahl speichern',
+              closeIconLabel: 'Schließen',
+              sections: [
+                {
+                  title: 'Notwendig',
+                  description: 'Speichert nur Ihre Datenschutzauswahl (Cookie „cc_cookie“, 6 Monate) und, falls Sie ihn ändern, den Hell/Dunkel-Modus im Browser.',
+                  linkedCategory: 'necessary',
+                },
+                {
+                  title: 'Statistik (Google Analytics)',
+                  description:
+                    'Statistiken zur Nutzung der Website über Google Analytics 4 (Google Ireland Ltd.). Setzt die Cookies „_ga“ und „_ga_*“; Daten können in die USA übermittelt werden.',
+                  linkedCategory: 'analytics',
+                },
+                {
+                  title: 'Weitere Informationen',
+                  description: 'Einzelheiten finden Sie in der <a href="{{ $privacy }}">Datenschutzerklärung</a>.',
+                },
+              ],
+            },
+          },
+          {{- else }}
+          en: {
+            consentModal: {
+              title: 'Privacy settings',
+              description:
+                'We would like to use Google Analytics to see how this site is used. It is only loaded with your consent. You can change your choice at any time via “Cookie settings” in the footer.',
+              acceptAllBtn: 'Accept all',
+              acceptNecessaryBtn: 'Necessary only',
+              showPreferencesBtn: 'Settings',
+              footer: '<a href="{{ $privacy }}">Privacy policy</a> <a href="{{ $impressum }}">Legal notice</a>',
+            },
+            preferencesModal: {
+              title: 'Cookie settings',
+              acceptAllBtn: 'Accept all',
+              acceptNecessaryBtn: 'Necessary only',
+              savePreferencesBtn: 'Save choices',
+              closeIconLabel: 'Close',
+              sections: [
+                {
+                  title: 'Necessary',
+                  description: 'Only stores your privacy choice (cookie “cc_cookie”, 6 months) and, if you change it, the light/dark mode in your browser.',
+                  linkedCategory: 'necessary',
+                },
+                {
+                  title: 'Statistics (Google Analytics)',
+                  description:
+                    'Usage statistics via Google Analytics 4 (Google Ireland Ltd.). Sets the cookies “_ga” and “_ga_*”; data may be transferred to the USA.',
+                  linkedCategory: 'analytics',
+                },
+                {
+                  title: 'More information',
+                  description: 'See the <a href="{{ $privacy }}">privacy policy</a> for details.',
+                },
+              ],
+            },
+          },
+          {{- end }}
+        },
+      },
+    });
+  });
+</script>

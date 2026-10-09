@@ -95,7 +95,8 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    # No map: an OpenStreetMap/Leaflet map would load tiles and scripts from third parties.
+    provider: ''
     api_key: ''
     zoom: 15
 

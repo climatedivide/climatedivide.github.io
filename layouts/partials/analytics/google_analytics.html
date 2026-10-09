@@ -1,0 +1,14 @@
+{{/* Override of the theme's Google Analytics partial.
+     Both scripts are emitted as type="text/plain", so the browser does not run them.
+     CookieConsent (layouts/partials/hooks/body-end/cookieconsent.html) only activates them
+     after the visitor accepts the "analytics" category. Nothing is sent to Google before that. */}}
+{{ $ga := site.Params.marketing.analytics.google_analytics | default "" }}
+{{ if hugo.IsProduction | and $ga }}
+<script type="text/plain" data-category="analytics" data-service="Google Analytics" async data-src="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"></script>
+<script type="text/plain" data-category="analytics" data-service="Google Analytics">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '{{ $ga }}');
+</script>
+{{ end }}
