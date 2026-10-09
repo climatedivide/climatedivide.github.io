@@ -1,8 +1,14 @@
 ############################
-## HUGO MODULES
-## Install or uninstall themes and plugins here.
-## Docs: https://gohugo.io/hugo-modules/
+## THEME
+## The site uses the last release of the (now archived) Hugo Blox Bootstrap theme,
+## kept as a local copy in themes/ (blox-bootstrap imports blox-core and blox-seo).
+## See themes/README.md for its origin and the local patches.
 ############################
 
 imports:
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+  - path: blox-bootstrap
+
+# The templates use APIs introduced in Hugo 0.158 (hugo.Data, hugo.Sites, locale).
+hugoVersion:
+  min: '0.158.0'
+  extended: true

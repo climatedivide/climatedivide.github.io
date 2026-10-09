@@ -4,12 +4,12 @@
 
 # Default language
 en:
-  languageCode: en-us
+  locale: en-US
   contentDir: content/en
 
 # German
 de:
-  languageCode: de
+  locale: de-DE
   contentDir: content/de
   title: Die neue klimapolitische Spaltung
   params:

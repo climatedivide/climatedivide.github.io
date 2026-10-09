@@ -1,4 +1,4 @@
-# Site override of the theme's asset list (_vendor/.../blox-bootstrap/v5/data/assets.toml).
+# Site override of the theme's asset list (themes/blox-bootstrap/data/assets.toml).
 # The libraries this site actually uses (isotope, imagesLoaded, Fuse, mark.js, academicons)
 # are served from /static/vendor/ instead of cdn.jsdelivr.net, so visitors' IP addresses are
 # not sent to a third-party CDN (see the privacy policy). Versions and SRI hashes are unchanged.
