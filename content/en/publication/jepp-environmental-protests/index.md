@@ -1,7 +1,7 @@
 ---
 title: "Environmental protests in Europe"
 authors:
-  - Endre Borbáth
+  - endre-borbath
   - Swen Hutter
 translationKey: jepp-environmental-protests
 type: publication

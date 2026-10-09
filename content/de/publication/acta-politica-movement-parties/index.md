@@ -1,7 +1,7 @@
 ---
 title: "Movement parties in Europe: a comparative assessment"
 authors:
-  - Endre Borbáth
+  - endre-borbath
   - Fred Paxton
 translationKey: acta-politica-movement-parties
 type: publication

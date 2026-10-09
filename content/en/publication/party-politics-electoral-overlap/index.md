@@ -1,7 +1,7 @@
 ---
 title: "Not everyone suffers equally: The effect of electoral overlap on mainstream party responses to radical right parties"
 authors:
-  - Dino Noah Wildi
+  - dino-noah-wildi
 translationKey: party-politics-electoral-overlap
 type: publication
 date: 2025-07-01

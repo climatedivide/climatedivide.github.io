@@ -2,7 +2,7 @@
 title: "Cleavage theory meets civil society: a framework and research agenda"
 authors:
   - Alex Mierke-Zatwarnicki
-  - Endre Borbáth
+  - endre-borbath
   - Swen Hutter
 translationKey: wep-cleavage-civil-society
 type: publication

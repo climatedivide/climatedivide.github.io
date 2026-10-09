@@ -3,7 +3,7 @@ title: "The effects of turnout at major climate protests on politically-interest
 authors:
   - David Schieferdecker
   - Jannes Jacobsen
-  - Endre Borbáth
+  - endre-borbath
   - Swen Hutter
   - Jule Specht
 translationKey: npj-climate-action-protest-turnout

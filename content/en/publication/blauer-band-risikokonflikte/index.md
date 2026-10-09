@@ -1,7 +1,7 @@
 ---
 title: "Risikokonflikte und die Restrukturierung des Parteienwettbewerbs"
 authors:
-  - Endre Borbáth
+  - endre-borbath
   - Swen Hutter
 translationKey: blauer-band-risikokonflikte
 type: publication

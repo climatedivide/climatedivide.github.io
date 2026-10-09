@@ -2,7 +2,7 @@
 title: "The Effect of Politicization on Protest Participation in Non-Democracies: The Case of Hungary"
 authors:
   - Pál Susánszky
-  - Endre Borbáth
+  - endre-borbath
 translationKey: ssq-politicization
 type: publication
 date: 2025-06-01

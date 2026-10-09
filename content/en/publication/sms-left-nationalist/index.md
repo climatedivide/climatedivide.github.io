@@ -2,7 +2,7 @@
 title: "Protest and the rise of left-nationalist challengers: evidence from Germany"
 authors:
   - Lennart Schürmann
-  - Endre Borbáth
+  - endre-borbath
   - Swen Hutter
 translationKey: sms-left-nationalist
 type: publication

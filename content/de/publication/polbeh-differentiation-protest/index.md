@@ -1,7 +1,7 @@
 ---
 title: "Differentiation in Protest Politics - Participation by Political Insiders and Outsiders"
 authors:
-  - Endre Borbáth
+  - endre-borbath
 translationKey: polbeh-differentiation-protest
 type: publication
 date: 2023-01-01

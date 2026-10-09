@@ -1,7 +1,7 @@
 ---
 title: "Party system transformation from below: protests by Jobbik and LMP"
 authors:
-  - Endre Borbáth
+  - endre-borbath
   - Pál Susánszky
 translationKey: acta-politica-party-system-protests
 type: publication
