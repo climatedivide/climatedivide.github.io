@@ -17,8 +17,6 @@ number: "1"
 pages: "28"
 featured: true
 summary: Survey field experiments show climate protest turnout signals collective capacity by increasing perceived movement efficacy, while leaving attitudes and vote intentions unchanged.
-aliases:
-  - /de/publication/npj-climate-action-protest-turnout/
 links:
   - name: PDF
     url: https://www.nature.com/articles/s44168-026-00349-3.pdf

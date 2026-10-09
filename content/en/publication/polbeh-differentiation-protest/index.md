@@ -11,8 +11,6 @@ publication: Political Behavior
 abbr: PolBeh
 featured: false
 summary: Survey evidence from Germany shows insiders and outsiders differ by issue focus while engaging similarly in noninstitutional protest.
-aliases:
-  - /de/publication/polbeh-differentiation-protest/
 links:
   - name: PDF
     url: https://link.springer.com/content/pdf/10.1007/s11109-022-09846-7.pdf

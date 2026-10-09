@@ -12,8 +12,6 @@ publication_types: ["article-journal"]
 publication: Social Movement Studies
 featured: true
 summary: Mixed-method analysis of why Germany’s anticipated “Hot Autumn” protests remained moderate, highlighting the role of emerging left-nationalist actors.
-aliases:
-  - /publication/sms-left-nationalist/
 links:
   - name: PDF
     url: https://www.tandfonline.com/doi/pdf/10.1080/14742837.2025.2530410?download=true

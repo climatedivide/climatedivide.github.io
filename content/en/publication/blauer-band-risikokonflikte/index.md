@@ -13,8 +13,6 @@ publisher: Springer VS
 pages: 505–524
 featured: false
 summary: Chapter on how climate change and COVID-19, as risk conflicts, reshape party competition in Germany.
-aliases:
-  - /de/publication/blauer-band-risikokonflikte/
 links:
   - name: PDF
     url: https://link.springer.com/content/pdf/10.1007/978-3-658-42694-1_20.pdf?pdf

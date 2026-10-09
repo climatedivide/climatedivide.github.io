@@ -17,8 +17,6 @@ number: "1"
 pages: "28"
 featured: true
 summary: Survey-Feldexperimente zeigen, dass die Teilnehmendenzahl bei Klimaprotesten kollektive Handlungsfähigkeit signalisiert, indem sie die wahrgenommene Wirksamkeit der Bewegung erhöht, während Einstellungen und Wahlabsichten unverändert bleiben.
-aliases:
-  - /publication/npj-climate-action-protest-turnout/
 links:
   - name: PDF
     url: https://www.nature.com/articles/s44168-026-00349-3.pdf

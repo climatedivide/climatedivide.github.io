@@ -13,8 +13,6 @@ number: "4"
 pages: 634–645
 featured: false
 summary: Cross-country analysis of how electoral overlap with radical right parties shapes mainstream party positions on immigration.
-aliases:
-  - /publication/party-politics-electoral-overlap/
 links:
   - name: PDF
     url: https://journals.sagepub.com/doi/pdf/10.1177/13540688241247123

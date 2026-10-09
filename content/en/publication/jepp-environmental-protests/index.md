@@ -11,8 +11,6 @@ publication_types: ["article-journal"]
 publication: Journal of European Public Policy
 featured: false
 summary: Cross-national protest event analysis (2000–2021) mapping the scale, profile, and drivers of environmental protest across Europe.
-aliases:
-  - /de/publication/jepp-environmental-protests/
 links:
   - name: PDF
     url: https://www.tandfonline.com/doi/epdf/10.1080/13501763.2024.2390701?needAccess=true

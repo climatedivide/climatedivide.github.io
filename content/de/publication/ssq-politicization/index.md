@@ -14,8 +14,6 @@ number: "6"
 pages: e70099
 featured: true
 summary: Survey-experimental evidence shows higher politicization can demobilize protest by lowering perceived efficacy and public support.
-aliases:
-  - /publication/ssq-politicization/
 links:
   - name: PDF
     url: https://onlinelibrary.wiley.com/doi/epdf/10.1111/ssqu.70099

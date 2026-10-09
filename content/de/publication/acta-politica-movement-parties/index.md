@@ -12,8 +12,6 @@ publication: Acta Politica
 abbr: Acta Pol.
 featured: false
 summary: Comparative assessment of movement parties across Europe, operationalising programmatic, organisational, and protest dimensions.
-aliases:
-  - /publication/acta-politica-movement-parties/
 links:
   - name: PDF
     url: https://link.springer.com/content/pdf/10.1057/s41269-024-00381-3.pdf

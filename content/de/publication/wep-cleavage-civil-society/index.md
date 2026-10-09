@@ -12,8 +12,6 @@ publication_types: ["article-journal"]
 publication: West European Politics
 featured: true
 summary: Überblicksartikel zu Mechanismen, über die Zivilgesellschaft Konfliktlinien auf Angebots- und Nachfrageseite prägt.
-aliases:
-  - /publication/wep-cleavage-civil-society/
 links:
   - name: PDF
     url: https://www.tandfonline.com/doi/pdf/10.1080/01402382.2025.2543136?download=true

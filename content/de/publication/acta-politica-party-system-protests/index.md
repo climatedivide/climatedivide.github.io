@@ -12,8 +12,6 @@ publication: Acta Politica
 abbr: Acta Pol.
 featured: false
 summary: Protest event analysis of Jobbik and LMP (2002–2022) shows varied mechanisms linking protest mobilisation and party system change.
-aliases:
-  - /publication/acta-politica-party-system-protests/
 links:
   - name: PDF
     url: https://link.springer.com/content/pdf/10.1057/s41269-024-00342-w.pdf
