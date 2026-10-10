@@ -1,5 +1,6 @@
 ---
 title: Datenschutzerklärung
+date: 2026-10-10
 summary: "Wie personenbezogene Daten auf der Website des Forschungsprojekts Die neue klimapolitische Spaltung verarbeitet werden."
 translationKey: privacy
 share: false
@@ -9,8 +10,9 @@ editable: false
 show_related: false
 show_date: false
 reading_time: false
-sitemap:
-  priority: 0.1
+# Reachable from the footer only: kept out of news feeds, "latest" lists, search and the sitemap.
+build:
+  list: never
 ---
 
 *Stand: Oktober 2026*

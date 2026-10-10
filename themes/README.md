@@ -27,8 +27,13 @@ Applied for Hugo 0.167:
 - Imports between the three parts point to these folders (`blox-core`, `blox-seo`)
   instead of the Go module paths.
 - Deprecated template APIs replaced: `site.Data` → `hugo.Data`,
-  `site.LanguageCode` → `site.Language.Locale`, `.IsNode` → `not .IsPage`,
+  `site.LanguageCode` → `site.Language.Locale`, `site.IsMultiLingual` →
+  `hugo.IsMultilingual`, `.IsNode` → `not .IsPage`,
   `resources.ToCSS`/`toCSS` → `css.Sass`.
+- `hreflang` links to other languages use the language locale (`en-US`,
+  `de-DE`), matching the page's own `hreflang`.
+- `rss.xml` skips pages without a date (People, Contact) instead of listing
+  them with a year-0001 date.
 - Removed `blox-seo/layouts/_markup/sitemap.xml`, which Hugo never used
   (Hugo's built-in sitemap is used, as before).
 

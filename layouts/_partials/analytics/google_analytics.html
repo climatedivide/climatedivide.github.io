@@ -1,6 +1,6 @@
 {{/* Override of the theme's Google Analytics partial.
      Both scripts are emitted as type="text/plain", so the browser does not run them.
-     CookieConsent (layouts/partials/hooks/body-end/cookieconsent.html) only activates them
+     CookieConsent (layouts/_partials/hooks/body-end/cookieconsent.html) only activates them
      after the visitor accepts the "analytics" category. Nothing is sent to Google before that. */}}
 {{ $ga := site.Params.marketing.analytics.google_analytics | default "" }}
 {{ if hugo.IsProduction | and $ga }}

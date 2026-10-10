@@ -57,7 +57,8 @@
         {{ end }}
         {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
         {{ if $src }}
-          {{if $link}}<a href="{{ $link }}">{{end}}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="{{ .Title }}">{{if $link}}</a>{{end}}
+          {{/* The photo repeats the name link below, so it is skipped by keyboard and screen readers. */}}
+          {{if $link}}<a href="{{ $link }}" tabindex="-1" aria-hidden="true">{{end}}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="{{ if not $link }}{{ .Title }}{{ end }}">{{if $link}}</a>{{end}}
         {{ else }}
           <div class="avatar avatar-placeholder {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" aria-hidden="true"></div>
         {{ end }}

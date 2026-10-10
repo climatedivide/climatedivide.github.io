@@ -1,5 +1,6 @@
 ---
 title: Impressum
+date: 2026-10-10
 summary: "Impressum der Website des Forschungsprojekts Die neue klimapolitische Spaltung."
 translationKey: impressum
 share: false
@@ -9,8 +10,9 @@ editable: false
 show_related: false
 show_date: false
 reading_time: false
-sitemap:
-  priority: 0.1
+# Reachable from the footer only: kept out of news feeds, "latest" lists, search and the sitemap.
+build:
+  list: never
 ---
 
 ### Angaben gemäß § 5 DDG

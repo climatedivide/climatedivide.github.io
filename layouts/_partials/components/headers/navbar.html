@@ -199,7 +199,7 @@
           </a>
           <div class="dropdown-menu">
             {{/* Default language code. */}}
-            {{ $defaultLang := (index hugo.Sites 0).Language.Lang }}
+            {{ $defaultLang := hugo.Sites.Default.Language.Lang }}
             {{ range hugo.Sites }}
             {{ $lang := .Language.Lang }}
             {{ $label := index hugo.Data.i18n.languages $lang | default .Language.Label }}

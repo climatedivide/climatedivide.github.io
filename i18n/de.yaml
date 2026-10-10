@@ -1,0 +1,9 @@
+# Corrections to the theme's German translations (themes/blox-bootstrap/i18n/de.yaml).
+- id: languages
+  translation: Sprachen
+
+- id: close
+  translation: Schließen
+
+- id: published_with
+  translation: Erstellt mit {hugoblox}, dem kostenlosen {repo_link}Open-Source{/repo_link}-Website-Baukasten.

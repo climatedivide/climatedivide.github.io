@@ -1,5 +1,6 @@
 ---
 title: Legal notice
+date: 2026-10-10
 summary: "Legal notice for the website of the research project The New Climate Divide."
 translationKey: impressum
 share: false
@@ -9,8 +10,9 @@ editable: false
 show_related: false
 show_date: false
 reading_time: false
-sitemap:
-  priority: 0.1
+# Reachable from the footer only: kept out of news feeds, "latest" lists, search and the sitemap.
+build:
+  list: never
 ---
 
 ### Information pursuant to § 5 DDG

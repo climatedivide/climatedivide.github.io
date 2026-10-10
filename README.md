@@ -38,6 +38,6 @@ Change `WC_HUGO_VERSION` in `.github/workflows/publish.yaml`, then build locally
 ## Privacy
 
 Google Analytics only loads after a visitor consents in the cookie banner
-(`layouts/partials/hooks/body-end/cookieconsent.html`). All scripts, styles and fonts are served
+(`layouts/_partials/hooks/body-end/cookieconsent.html`). All scripts, styles and fonts are served
 from this site. If you add anything that loads from another domain (embeds, badges, maps, CDN
 scripts), put it behind consent and update the privacy policy in `content/*/privacy/`.

@@ -102,3 +102,21 @@
     max-width: 100px !important;
   }
 }
+
+// Mobile navbar: the centred site title must not run under the search and language
+// icons (the German title is long). Allow two lines between the menu button and the icons.
+@media (max-width: 991.98px) {
+  .navbar-brand-mobile-wrapper .navbar-brand {
+    max-width: calc(100% - 200px);
+    white-space: normal;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 389.98px) {
+  .navbar-brand-mobile-wrapper .navbar-brand {
+    max-width: calc(100% - 150px);
+    font-size: 0.8125rem;
+  }
+}

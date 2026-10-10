@@ -1,4 +1,4 @@
-{{/* Consent banner. Google Analytics (see layouts/partials/analytics/google_analytics.html)
+{{/* Consent banner. Google Analytics (see layouts/_partials/analytics/google_analytics.html)
      is only loaded once the visitor accepts "Statistics". Texts follow the page language. */}}
 {{ $privacy := "" }}{{ with site.GetPage "/privacy" }}{{ $privacy = .RelPermalink }}{{ end }}
 {{ $impressum := "" }}{{ with site.GetPage "/impressum" }}{{ $impressum = .RelPermalink }}{{ end }}

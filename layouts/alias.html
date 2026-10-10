@@ -1,0 +1,12 @@
+{{/* Redirect page for aliases (e.g. /en/ -> /). Same as Hugo's built-in one, plus noindex,
+     which older Hugo versions added and Hugo 0.167 no longer does. */}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}">
+  <head>
+    <title>{{ .Permalink }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+  </head>
+</html>
