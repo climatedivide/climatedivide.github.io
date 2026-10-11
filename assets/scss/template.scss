@@ -120,3 +120,28 @@
     font-size: 0.8125rem;
   }
 }
+
+// Accessibility (WCAG AA contrast and link visibility)
+// Dates in news lists were #727272 on #f7f7f7 (4.49:1, just under 4.5:1).
+.article-metadata .article-date,
+.portrait-title h3 {
+  color: #666;
+}
+// Inline code (e.g. cookie names in the privacy policy) was pink #e83e8c (3.8:1).
+.article-style code {
+  color: #b5174f;
+}
+// Links inside running text must be recognisable without relying on colour.
+.article-style p a:not(.btn),
+.article-style li a:not(.btn),
+.home-section p a:not(.btn),
+.site-footer .powered-by a {
+  text-decoration: underline;
+}
+// Profile pages: the person's name is the page's <h1>; keep the theme's look for it.
+#profile .portrait-title h1 {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #000;
+  margin: 20px 0 10px;
+}

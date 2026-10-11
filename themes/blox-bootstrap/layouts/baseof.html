@@ -46,7 +46,8 @@
   {{ partial $block_path . }}
   </div>
 
-  <div class="page-body">
+  {{/* Local patch: <main> landmark (was a plain div) so assistive technology can jump to the content. */}}
+  <main class="page-body">
     {{/* Breadcrumb */}}
     {{/* Don't apply to Book layout as that has different breadcrumb placement. */}}
     {{ if .Params.show_breadcrumb | and (ne .Type "book") }}
@@ -58,7 +59,7 @@
     {{ end }}
 
     {{ block "main" . }}{{ end }}
-  </div>
+  </main>
 
   <div class="page-footer">
     {{/* Docs and Updates layouts include the site footer in a different location. */}}

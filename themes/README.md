@@ -34,6 +34,9 @@ Applied for Hugo 0.167:
   `de-DE`), matching the page's own `hreflang`.
 - `rss.xml` skips pages without a date (People, Contact) instead of listing
   them with a year-0001 date.
+- The publication list's search box treats typed text literally (it was used as a
+  regular expression, so typing `(` or `[` threw errors and broke the filter).
+- `baseof.html` wraps the page content in a `<main>` landmark (accessibility).
 - Removed `blox-seo/layouts/_markup/sitemap.xml`, which Hugo never used
   (Hugo's built-in sitemap is used, as before).
 

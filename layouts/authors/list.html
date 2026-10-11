@@ -25,7 +25,7 @@
 
           <div class="portrait-title">
 
-            <h2>
+            <h1>
               {{- if $person.name_pronunciation -}}
                 <ruby>
                   <rb>{{ .Title }}</rb>
@@ -34,7 +34,7 @@
               {{- else -}}
               {{- $authorPage.Title -}}
               {{- end -}}
-            </h2>
+            </h1>
 
             {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
 

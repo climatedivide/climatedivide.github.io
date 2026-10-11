@@ -37,7 +37,8 @@ if ($grid_pubs.length) {
   // Filter by search term.
   let $quickSearch = $('.filter-search').keyup(
     debounce(function () {
-      searchRegex = new RegExp($quickSearch.val(), 'gi');
+      // Local patch: treat the typed text literally, so characters like ( [ * ? don't break the filter.
+      searchRegex = new RegExp($quickSearch.val().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
       $grid_pubs.isotope();
     }),
   );

@@ -42,7 +42,10 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        # The site address comes from baseURL in config/_default/hugo.yaml (https://climatedivide.eu/).
+        # Don't take it from the Pages settings: the deploy of 10 Oct 2026 got http:// from there,
+        # which put http:// addresses into canonical links, the sitemap and link previews.
+        run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

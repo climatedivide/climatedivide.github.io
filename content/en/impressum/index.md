@@ -15,7 +15,7 @@ build:
   list: never
 ---
 
-### Information pursuant to § 5 DDG
+## Information pursuant to § 5 DDG
 
 **The New Climate Divide (ClimateDivide)**  
 Research project funded by the German Research Foundation (DFG) in the Emmy Noether Programme
@@ -28,15 +28,15 @@ Bergheimer Str. 58
 69115 Heidelberg  
 Germany
 
-### Contact
+## Contact
 
 Phone: +49 6221 54-2871  
 Email: [endre.borbath@ipw.uni-heidelberg.de](mailto:endre.borbath@ipw.uni-heidelberg.de)
 
-### Responsible for content pursuant to § 18 (2) MStV
+## Responsible for content pursuant to § 18 (2) MStV
 
 Jun.-Prof. Dr. Endre Borbáth (address as above)
 
-### Note
+## Note
 
 This is the website of the research project The New Climate Divide. It is not an official website of Heidelberg University. Information on how data is processed on this site can be found in the [privacy policy](/privacy/).
