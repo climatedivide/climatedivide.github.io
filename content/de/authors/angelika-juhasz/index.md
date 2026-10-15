@@ -71,7 +71,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Doctoral Researcher
+  - Doktorand:innen
 ---
 
 Angelika Juhász ist Doktorandin in der Forschungsgruppe „The New Climate Divide“ unter der Leitung von Jun.-Prof. Dr. Endre Borbáth. Im Projekt untersucht sie, wie gegensätzliche politische Gruppenidentitäten rund um den Klimawandel in Fokusgruppendiskussionen konstruiert und ausgehandelt werden. Dabei interessiert sie sich besonders für Ingroup- und Outgroup-Identitäten und symbolische Grenzziehungen sowie dafür, welche Rolle politische Mobilisierung, Partizipation, Krisenerfahrungen, wirtschaftlicher Druck und geopolitische Unsicherheit dabei spielen. Neben ihrer Arbeit zum Klimawandel beschäftigt sie sich als assoziierte Forscherin im internationalen Forschungsprojekt „WealthTalks“ mit Vermögensungleichheit und der Frage, wie Menschen Vermögen verstehen und definieren.
