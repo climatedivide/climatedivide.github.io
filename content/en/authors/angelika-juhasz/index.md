@@ -35,7 +35,7 @@ interests:
 
 education:
   courses:
-    - course: Doctoral researcher, 
+    - course: PhD in Political Science, 10/2026-present
       institution: Ruprecht-Karls-Universität Heidelberg
     - course: M.A. in Sociology – European Societies 
       institution: Freie Universität Berlin
