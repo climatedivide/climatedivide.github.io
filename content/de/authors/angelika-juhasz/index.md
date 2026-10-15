@@ -35,7 +35,7 @@ interests:
 
 education:
   courses:
-    - course: Doktorandin, 10/2026-heute 
+    - course: Doktorandin, 9/2026-heute 
       institution: Ruprecht-Karls-Universität Heidelberg
     - course: M.A. in Sociology – European Societies 
       institution: Freie Universität Berlin
