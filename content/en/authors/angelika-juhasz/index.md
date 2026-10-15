@@ -74,6 +74,7 @@ user_groups:
   - Doctoral Researcher
 ---
 
-Angelika Juhász is a doctoral researcher in the research group “The New Climate Divide”, led by Jun.-Prof. Dr. Endre Borbáth. Within the project, she researches how opposing political group identities are constructed and narrated around climate change. She is particularly interested in in-group and out-group formation and symbolic boundaries, and how these are shaped by political mobilisation, participation, crisis experiences, economic pressures, and geopolitical uncertainty. Beyond this project, her research interests include wealth inequality and definitions of wealth. She is also an associated researcher in the international project “WealthTalks”
+Angelika Juhász is a doctoral researcher in the research group “The New Climate Divide”, led by Jun.-Prof. Dr. Endre Borbáth. Within the project, she researches how opposing political group identities are constructed and narrated around climate change. She is particularly interested in in-group and out-group formation and symbolic boundaries, and how these are shaped by political mobilisation, participation, crisis experiences, economic pressures, and geopolitical uncertainty. Beyond this project, her research interests include wealth inequality and definitions of wealth. She is also an associated researcher in the international project “WealthTalks”. 
+
 Methodologically, she is most experienced with qualitative research, particularly conducting focus groups. She is also trained in quantitative methods, especially survey-based research, and has some experience with natural language processing (NLP) techniques, such as topic modeling (LDA/BERT). 
 
