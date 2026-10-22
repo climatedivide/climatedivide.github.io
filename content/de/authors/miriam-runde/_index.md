@@ -28,7 +28,6 @@ interests:
   - Computational Social Science
   - Natural Language Processing für politische Texte
   - Kausale Inferenz
-  - 
 
 education:
   courses:
@@ -44,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'miriam.runde@ipw.uni-heidelberg.de'  # TODO: E-Mail-Adresse eintragen
+    link: 'mailto:miriam.runde@ipw.uni-heidelberg.de'  # TODO: E-Mail-Adresse eintragen
   # - icon: orcid
   #   icon_pack: fab
   #   link: https://orcid.org/XXXX-XXXX-XXXX-XXXX
