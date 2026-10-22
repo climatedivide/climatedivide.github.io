@@ -12,7 +12,7 @@ last_name: Juhász
 superuser: false
 
 # Role/position
-role: Doctoral Researcher
+role: Grad Students
 
 # Organizations/Affiliations
 organizations:
