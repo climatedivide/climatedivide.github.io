@@ -12,7 +12,7 @@ last_name: Runde
 superuser: false
 
 # Role/position
-role: PhD Candidate
+role: Grad Students
 
 # Organizations/Affiliations
 organizations:
