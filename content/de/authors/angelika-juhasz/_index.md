@@ -60,7 +60,7 @@ social:
     link: 'https://www.linkedin.com/in/angelika-juh%C3%A1sz-9b708a446'
   - icon: square-bluesky
     icon_pack: fab
-    link: https://bsky.app/profile/angelikajuh.bsky.social
+    link: 'https://bsky.app/profile/angelikajuh.bsky.social'
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
