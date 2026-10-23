@@ -58,6 +58,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/angelika-juh%C3%A1sz-9b708a446'
+  - icon: square-bluesky
+    icon_pack: fab
+    link: 'https://bsky.app/profile/angelikajuh.bsky.social'
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -79,5 +82,5 @@ user_groups:
 
 Angelika Juhász is a doctoral researcher in the research group “The New Climate Divide”, led by Jun.-Prof. Dr. Endre Borbáth. Within the project, she researches how opposing political group identities are constructed and narrated around climate change. She is particularly interested in in-group and out-group formation and symbolic boundaries, and how these are shaped by political mobilisation, participation, crisis experiences, economic pressures, and geopolitical uncertainty. Beyond this project, her research interests include wealth inequality and definitions of wealth. She is also an associated researcher in the international project “WealthTalks”. 
 
-Methodologically, she is most experienced with qualitative research, particularly conducting focus groups. She is also trained in quantitative methods, especially survey-based research, and has some experience with natural language processing (NLP) techniques, such as topic modeling (LDA/BERT). 
+Methodologically, she is most experienced with qualitative research, particularly conducting focus groups. She is also trained in quantitative methods, especially survey-based research, and has some experience with natural language processing (NLP) techniques, such as topic modeling. 
 
