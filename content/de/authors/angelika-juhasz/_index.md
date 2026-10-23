@@ -58,7 +58,7 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/angelika-juh%C3%A1sz-9b708a446'
-    icon: square-bluesky
+  - icon: square-bluesky
     icon_pack: fab
     link: https://bsky.app/profile/angelikajuh.bsky.social
 
