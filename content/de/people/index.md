@@ -10,9 +10,9 @@ sections:
       title: Team kennenlernen
       user_groups:
           - Projektleitung
-          - Postdoktorand:innen
+          - Postdoktorand
           - Forschende
-          - Doktorand:innen
+          - Doktorandinnen
           - Studentische Hilfskräfte
           - Administrative Assistenz
           - Gäste
