@@ -9,7 +9,7 @@
 
 {{ if $block.content.image.filename }}
 <div class="row">
-  <div class="col-12 col-md-6 text-center text-md-left">
+  <div class="col-12 col-md-6 col-lg-5 text-center text-md-left">
 {{ end }}
 
     {{ with $block.content.title }}
@@ -63,12 +63,13 @@
   {{/* Hero image */}}
   {{ if $block.content.image.filename }}
   </div>
-  <div class="col-12 mx-auto col-md-6 {{if $block.content.design.flip}}order-md-first{{end}} hero-media">
+  <div class="col-12 mx-auto col-md-6 col-lg-7 {{if $block.content.design.flip}}order-md-first{{end}} hero-media">
     {{- $image := resources.Get (path.Join "media" $block.content.image.filename) -}}
+    {{- $alt := $block.content.image.alt | default ($block.content.title | plainify) -}}
     {{ if $image }}
       {{ $isSVG := eq $image.MediaType.SubType "svg" }}
       {{ if $isSVG -}}
-        <img src="{{ $image.RelPermalink }}" alt="{{ $block.Title }}">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
       {{- else }}
         {{ $legacy_img := $image.Resize "400x" }}
         {{ $img_src := "" }}
@@ -84,7 +85,7 @@
         {{ end }}
         {{ $img_src_set = delimit $img_src_set "," }}
 
-        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $block.Title }}">
+        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" sizes="(min-width: 1200px) 635px, (min-width: 992px) 530px, (min-width: 768px) 330px, calc(100vw - 30px)" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}">
       {{ end }}
     {{ end }}
   </div>

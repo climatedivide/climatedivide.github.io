@@ -10,7 +10,8 @@ sections:
         Die neue klimapolitische Spaltung
         Forschungsgruppe
       image:
-        filename: logo_network.svg
+        filename: team-2026.jpg
+        alt: Das Forschungsteam „Die neue klimapolitische Spaltung“ an der Universität Heidelberg
       text: |
         <br>
         Das Forschungsprojekt untersucht die Polarisierung rund um den Klimawandel als politisches Mobilisierungsthema, geprägt von einer sich formierenden rechten Front und einem zunehmend mainstreamigen, aber fragmentierten grünen Lager.

@@ -5,13 +5,9 @@
 {{ $highlight_active_link := site.Params.header.navbar.highlight_active_link | default true }}
 {{ $show_current_language := site.Params.header.navbar.show_language | default false }}
 
-{{/* Get site logo. */}}
+{{/* Show the site title followed by the project network logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
-{{ $has_logo := fileExists "assets/media/logo.png" | or (fileExists "assets/media/logo.svg") }}
-{{ $logo := "" }}
-{{ if $has_logo }}
-  {{ $logo = (partial "blox-core/functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
-{{ end }}
+{{ $logo := resources.Get "media/logo_network.svg" }}
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
@@ -20,13 +16,10 @@
       {{if $show_logo}}
       <div class="d-none d-lg-inline-flex">
         <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">
-          {{- if $has_logo -}}
-            <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-            {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-            {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
-          {{- else -}}
-            {{- site.Title -}}
-          {{- end -}}
+          <span class="navbar-brand-title">{{ site.Title }}</span>
+          {{ with $logo }}
+            <img class="navbar-brand-logo" src="{{ .RelPermalink }}" width="56" height="40" alt="" aria-hidden="true">
+          {{ end }}
         </a>
       </div>
       {{end}}
@@ -41,13 +34,10 @@
       {{if $show_logo}}
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
         <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">
-        {{- if $has_logo -}}
-          <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-          {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-          {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
-        {{- else -}}
-          {{- site.Title -}}
-        {{- end -}}
+          <span class="navbar-brand-title">{{ site.Title }}</span>
+          {{ with $logo }}
+            <img class="navbar-brand-logo" src="{{ .RelPermalink }}" width="56" height="40" alt="" aria-hidden="true">
+          {{ end }}
         </a>
       </div>
       {{end}}

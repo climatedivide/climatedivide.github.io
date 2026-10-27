@@ -103,8 +103,63 @@
   }
 }
 
-// Mobile navbar: the centred site title must not run under the search and language
-// icons (the German title is long). Allow two lines between the menu button and the icons.
+// Keep the title and network logo together in both language versions.
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: normal;
+  line-height: 1.15;
+}
+.navbar-brand-title {
+  max-width: 14rem;
+}
+.navbar-brand img.navbar-brand-logo {
+  flex: 0 0 auto;
+  width: 56px;
+  height: 40px;
+  object-fit: contain;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .navbar-brand-title {
+    max-width: 11rem;
+  }
+  .navbar-brand img.navbar-brand-logo {
+    width: 44px;
+    height: 34px;
+  }
+}
+
+// Keep the German title on one line in the upper-left desktop header.
+@media (min-width: 992px) {
+  html:lang(de) .navbar-brand {
+    font-size: 1rem;
+  }
+  html:lang(de) .navbar-brand-title {
+    max-width: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html:lang(de) .navbar-brand {
+    font-size: 0.875rem;
+  }
+  html:lang(de) #navbar-main .main-menu-item .nav-link {
+    font-size: 14px;
+    padding-right: 0.375rem;
+    padding-left: 0.375rem;
+  }
+  html:lang(de) .i18n-dropdown .nav-link > span {
+    display: none !important;
+  }
+}
+
+// Leave room for the menu button, search and language controls on small screens.
 @media (max-width: 991.98px) {
   .navbar-brand-mobile-wrapper .navbar-brand {
     max-width: calc(100% - 200px);
@@ -113,11 +168,26 @@
     line-height: 1.15;
     font-size: 1rem;
   }
+  .navbar-brand img.navbar-brand-logo {
+    width: 36px;
+    height: 28px;
+  }
+}
+@media (max-width: 575.98px) {
+  .navbar-brand-mobile-wrapper .navbar-brand {
+    max-width: calc(100% - 160px);
+    gap: 0.375rem;
+    font-size: 0.875rem;
+  }
+  .navbar-brand img.navbar-brand-logo {
+    width: 32px;
+    height: 24px;
+  }
 }
 @media (max-width: 389.98px) {
   .navbar-brand-mobile-wrapper .navbar-brand {
     max-width: calc(100% - 150px);
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
   }
 }
 

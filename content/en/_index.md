@@ -10,7 +10,8 @@ sections:
         The New Climate Divide
         Research Group
       image:
-        filename: logo_network.svg
+        filename: team-2026.jpg
+        alt: The New Climate Divide research team at Heidelberg University
       text: |
         <br>
         The research project focuses on the analysis of polarization around climate change as a political mobilization issue, shaped by an emerging right-wing front and an increasingly mainstream yet fragmented green camp.  
