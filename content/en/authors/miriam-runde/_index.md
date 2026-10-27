@@ -65,7 +65,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Grad Students
+  - Doctoral Researchers
 ---
 
 Miriam Runde is a PhD candidate at the Institute of Political Science at Heidelberg University and a member of the research group "The New Climate Divide", led by Jun.-Prof. Dr. Endre Borbáth. In her dissertation project, she examines how climate change issues affect citizens' political participation behavior in Europe. Her research interests lie in comparative party and participation research and in the formation and transformation of cleavages. Methodologically, she combines quantitative political science with computational social science methods, above all natural language processing for political texts.
