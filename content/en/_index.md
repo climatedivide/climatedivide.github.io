@@ -78,6 +78,7 @@ sections:
         - Principal Investigator
         - Postdoctoral Researcher
         - Researchers
+        - Doctoral Researchers
         - Student Assistants
         - Administrative Assistance
       sort_by: Params.last_name

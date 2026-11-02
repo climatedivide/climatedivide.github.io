@@ -78,6 +78,7 @@ sections:
         - Projektleitung
         - Postdoktorand:innen
         - Forschende
+        - Doktorandinnen
         - Studentische Hilfskräfte
         - Administrative Assistenz
       sort_by: Params.last_name
